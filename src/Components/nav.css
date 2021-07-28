@@ -1,0 +1,21 @@
+nav {
+  background-color: rgb(226, 226, 226);
+  width: 100vw;
+  box-shadow: 2px 10px 20px -8px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 2px 10px 20px -8px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 2px 10px 20px -8px rgba(0, 0, 0, 0.51);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav img {
+  height: 50px;
+  color: red;
+}
+
+.nav .btn {
+  margin: 0;
+  padding: 10px 30px;
+}

@@ -1,0 +1,42 @@
+.message-page {
+  margin-top: 30px;
+}
+.container-msg {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgb(228, 222, 222);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 9px 10px 13px -1px rgba(110, 110, 110, 0.5);
+  -webkit-box-shadow: 9px 10px 13px -1px rgba(110, 110, 110, 0.5);
+  -moz-box-shadow: 9px 10px 13px -1px rgba(110, 110, 110, 0.5);
+  margin-bottom: 50px;
+}
+
+.random-message {
+  width: 90%;
+  border: 1px solid rgb(125, 42, 232);
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.send-msg {
+  width: 90%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.btn-msg {
+  margin-bottom: 20px;
+}
+
+.msg-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form textarea {
+  resize: none;
+}

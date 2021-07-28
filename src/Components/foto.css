@@ -1,0 +1,23 @@
+.photo-start {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.photo-user {
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.h3 {
+  opacity: 0;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.btn-game:active {
+  padding: 12px 52px;
+}

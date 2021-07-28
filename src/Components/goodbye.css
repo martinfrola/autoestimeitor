@@ -1,0 +1,36 @@
+.goodbye {
+  width: 90%;
+  max-width: 900px;
+  margin: 200px auto 30px auto;
+  text-align: center;
+  animation: 2s linear goodbye;
+}
+
+@keyframes goodbye {
+  0% {
+    opacity: 0;
+    margin-top: 250px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.gb-btns .btn {
+  width: 100px;
+  padding: 10px 5px;
+  animation: 3s linear buttons;
+}
+@keyframes buttons {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.gb-btns {
+  display: flex;
+  justify-content: space-evenly;
+}
